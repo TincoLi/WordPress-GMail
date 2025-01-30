@@ -1,5 +1,25 @@
 # WordPress-GMail
-develop mail service for wordpress website
+# 📂 backend-wordpress-gmail
+├── 📂 google-smtp-config
+│   ├── gmail_api_setup.py       # Python script to set up Gmail API for SMTP
+│   ├── credentials.json         # Google OAuth credentials
+│   ├── token.json               # OAuth refresh token
+├── 📂 cpanel-email-integration
+│   ├── pop3_cpanel_to_gmail.py  # Fetch emails from CPanel and forward to Gmail
+│   ├── smtp_cpanel.py           # SMTP configuration for sending emails via CPanel
+├── 📂 wordpress-contact-forms
+│   ├── wp_smtp_integration.php  # PHP script for WordPress Gmail SMTP setup
+│   ├── form_handler.php         # PHP handler for WordPress forms
+│   ├── custom_functions.php     # Custom functions for form integration
+├── 📂 server-maintenance
+│   ├── cron_server_config.sh    # Cron job script for PHP memory & SSL check
+│   ├── optimize_sql_cache.sql   # SQL script to clear cache
+├── 📂 google-apps-script
+│   ├── auto_email.gs            # Google Apps Script for automated emails
+│   ├── form_to_sheets.gs        # Google Apps Script to log WordPress forms in Sheets
+└── README.md
+
+# Steps of developing mail service for wordpress website
 1. create a wordpress website
 https://wordpress.com/view/tinghandcraft.wordpress.com
 
