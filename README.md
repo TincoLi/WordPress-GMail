@@ -33,9 +33,18 @@ Step 2: Fetch and Forward Emails
 Create fetch_cpanel_emails.py:
 ✔ This script fetches emails from CPanel and forwards them to Gmail.
 
-5. 5️⃣ Automate Server Maintenance (PHP)
+5. Automate Server Maintenance (PHP)
 Create a PHP script to optimize PHP memory, dump SQL cache, and check SSL expiry.
 Create server_maintenance.php
 ✔ Runs weekly using a cron job:
 crontab -e
 0 2 * * 7 /usr/bin/php /var/www/html/server_maintenance.php >> /var/log/php_maintenance.log 2>&1
+
+6. Automate Email Notifications (Google Apps Script)
+Use Google Apps Script to send automated responses and log form data.
+Step 1: Automate Emails
+Create auto_email.gs:
+✔ Runs every 10 minutes via a trigger.
+Step 2: Log Contact Forms to Google Sheets
+Create form_to_sheets.gs:
+✔ Logs WordPress form submissions to Google Sheets.
