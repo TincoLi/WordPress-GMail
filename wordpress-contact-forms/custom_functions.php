@@ -1,3 +1,4 @@
+// include in WordPress
 <?php
 // ✅ 1. Register a Custom Shortcode for Contact Form
 function custom_contact_form() {
