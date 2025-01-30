@@ -1,4 +1,4 @@
-// include in WordPress
+// A shortcode is a small WordPress-specific code snippet that allows users to insert dynamic content anywhere (pages, posts, widgets) without writing HTML or PHP manually.
 <?php
 // ✅ 1. Register a Custom Shortcode for Contact Form
 function custom_contact_form() {
@@ -14,7 +14,7 @@ function custom_contact_form() {
         <button type="submit">Submit</button>
     </form>
     <div id="form-response"></div>
-
+//AJAX (Asynchronous JavaScript and XML) allows a form to submit data without refreshing the page.
     <script>
         document.getElementById("custom-contact-form").onsubmit = function(e) {
             e.preventDefault();
