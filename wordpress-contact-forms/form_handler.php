@@ -1,3 +1,4 @@
+# forward contact form to google sheets
 <?php
 // Enable CORS if needed (for AJAX requests)
 header("Access-Control-Allow-Origin: *");
