@@ -24,3 +24,10 @@ In the Contact Form settings, set recipient email to contact@yourdomain.com.
 Step 3: Modify PHP Mail Function for CPanel
 Edit wp_smtp_integration.php:
 ✔ Now, WordPress contact forms will send emails via CPanel SMTP.
+
+4.Fetch Emails from CPanel and Forward to Gmail (Python)
+Create a Python script to fetch emails from CPanel via POP3 and forward them to Gmail.
+Step 1: Install Required Libraries
+pip install poplib smtplib email
+Step 2: Fetch and Forward Emails
+Create fetch_cpanel_emails.py:
