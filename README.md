@@ -25,9 +25,17 @@ Step 3: Modify PHP Mail Function for CPanel
 Edit wp_smtp_integration.php:
 ✔ Now, WordPress contact forms will send emails via CPanel SMTP.
 
-4.Fetch Emails from CPanel and Forward to Gmail (Python)
+4. Fetch Emails from CPanel and Forward to Gmail (Python)
 Create a Python script to fetch emails from CPanel via POP3 and forward them to Gmail.
 Step 1: Install Required Libraries
 pip install poplib smtplib email
 Step 2: Fetch and Forward Emails
 Create fetch_cpanel_emails.py:
+✔ This script fetches emails from CPanel and forwards them to Gmail.
+
+5. 5️⃣ Automate Server Maintenance (PHP)
+Create a PHP script to optimize PHP memory, dump SQL cache, and check SSL expiry.
+Create server_maintenance.php
+✔ Runs weekly using a cron job:
+crontab -e
+0 2 * * 7 /usr/bin/php /var/www/html/server_maintenance.php >> /var/log/php_maintenance.log 2>&1
