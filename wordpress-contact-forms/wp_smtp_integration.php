@@ -1,3 +1,4 @@
+# Ensures that all WordPress emails (contact forms, password resets, etc.) are sent via Gmail SMTP or CPanel Mail.
 add_action('phpmailer_init', 'setup_gmail_smtp');
 
 function setup_gmail_smtp($phpmailer) {
