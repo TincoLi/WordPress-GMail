@@ -1,5 +1,6 @@
 # WordPress-GMail
-# 📂 backend-wordpress-gmail
+#  Program Stucture
+📂 backend-wordpress-gmail
 ├── 📂 google-smtp-config
 │   ├── gmail_api_setup.py       # Python script to set up Gmail API for SMTP
 │   ├── credentials.json         # Google OAuth credentials
